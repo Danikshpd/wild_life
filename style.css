@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    
+}
+.centr{
+    padding:0;
+    margin: 0;
+    width: 1440px;
+    height: 1368px;
+    background: rgb(196, 195, 195);
+    
+}
+.verh{
+    padding:0;
+    margin: 0;
+    width: 1440px;
+    height: 779px;
+    background:wheat;
+    
+}
+.niz{
+    padding:0;
+    margin: 0;
+    width: 1440px;
+    height: 359px;
+    background: tomato;
+}
+.centr-h2{
+    padding-top: 120px;
+    position: relative;
+    text-align: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+}
+.centr-p1{
+position: relative;
+margin-top: 20px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+color: #666666;
+}
+.first-img{
+    width: 300px; height: 360px;
+    position: relative;
+    margin-top: 120px;
+    margin-left: 210px;
+    filter: drop-shadow(0px -150px 150px #02160B);
+    border-radius: 0px;
+}
+.second-img{
+    width: 300px; height: 360px;
+    position: relative;
+    margin-top: 120px;
+    margin-left: 60px;
+    filter: drop-shadow(0px -150px 150px #02160B);
+    border-radius: 0px;
+}
+.therd-img{
+    width: 300px; height: 360px;
+    position: relative;
+    margin-top: 120px;
+    margin-left: 60px;
+    filter: drop-shadow(0px -150px 150px #02160B);
+    border-radius: 0px;
+}
+/* .texst-in-img1{
+    position: relative;
+    margin: left 124px; ;
+    margin: top 247px; ;
+    margin: right 124px; ;
+    margin-bottom: 77px;
+} */
+.centr-p2{
+    position: relative;
+    margin-top: 239px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 40px;
+    text-align: center;
+    color: #333333;
+}
+button{
+    background: #CD6326;
+    height: 60px;
+    width: 120px;
+    border: 1px solid #CD6326;
+    border-radius: 0px 5px 5px 0px;
+    position: relative;
+    margin-left: 918px;
+    margin-top: -60px;
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 40px;
+}
+button:hover{
+    border: 1px solid #070707;
+}
+[type='search']{
+    position: relative;
+    width: 540px;
+    height: 60px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 59px;
+    margin-left: 378px;
+    
+}
