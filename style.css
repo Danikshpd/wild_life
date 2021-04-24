@@ -70,7 +70,7 @@ body{
             margin-top: 38px;
         }
         
-        button.new {
+        .new {
             position: relative;
             margin-left: 65.69px;
             margin-top: 25px;
@@ -88,7 +88,7 @@ body{
             text-align: center;
             color: #F7F7F7;
         }
-        button.new:hover{
+        .new:hover{
             color:#CD6326;
             border: 2px solid #F7F7F7;
         }
@@ -190,10 +190,10 @@ body{
         .slider-img-center {
             margin: 0 60px;
         }
-    .centr-sub{
+        .centr-sub{
                 display: flex;
-                flex-direction:column;  
-                justify-content: center;
+                flex-direction:column;
+                align-items: center;
         }
         .centr-p2{
             margin: 0;  
@@ -204,10 +204,16 @@ body{
             line-height: 40px;
             text-align: center;
             color: #333333;
+            margin-bottom: 60px;
         }
-        button{
-            background: #CD6326;
+        .email-input {
             height: 60px;
+            display: flex;
+            flex-direction: row;
+        }
+        .email-input button{
+            background: #CD6326;
+            height: 100%;
             width: 120px;
             border: 1px solid #CD6326;
             border-radius: 0px 5px 5px 0px;
@@ -217,27 +223,24 @@ body{
             font-size: 23px;
             line-height: 27px;
             text-align: center;
-        color: #F7F7F7;
+            color: #F7F7F7;
+            margin: 0;
         }
-        button:hover{
+        .email-input button:hover{
             border: 1px solid #070707;
         }
-        [type='search']{
+        .email-input [type='email']{
+            display: block;
             color: #666666;
             background: #CCCCCC;
             width: 540px;
-            height: 60px;
+            height: 100%;
             border: 1px solid #666666;
-            padding: 15px;
+            padding: 0 15px;
             font-size: 23px;
-        }
-        .input{
-            display: flex;
-            flex-direction:row;       
-            justify-content: center;
-            margin: 0;
-            margin-top: 59px;
-            margin-bottom: 239px;
+            outline: none;
+            box-sizing: border-box;
+            border-right: none !important;
         }
 .niz{
     padding:0;
