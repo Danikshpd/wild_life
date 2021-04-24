@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 body{
     margin: 0;
     
@@ -51,10 +54,21 @@ body{
 }
 .centr-slider {
     margin-top: 120px;
+    margin-bottom: 239px    ;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+/* .centr-slider-p{
+    margin: 0;
+    margin-top: 367px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.centr-slider-p-centr{
+    color: wheat;
+} */
 .slider-prev {
     width: 30px;
     margin-right: 60px;
@@ -79,9 +93,13 @@ body{
 .slider-img-center {
     margin: 0 60px;
 }
+.centr-sub{
+        display: flex;
+        flex-direction:column;  
+        justify-content: center;
+}
 .centr-p2{
-    position: relative;
-    margin-top: 239px;
+    margin: 0;  
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
@@ -96,23 +114,31 @@ button{
     width: 120px;
     border: 1px solid #CD6326;
     border-radius: 0px 5px 5px 0px;
-    position: relative;
-    margin-left: 918px;
-    margin-top: -60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
     text-align: center;
-    color: blanchedalmond;
-    font-size: 40px;
+color: #F7F7F7;
 }
 button:hover{
     border: 1px solid #070707;
 }
 [type='search']{
-    position: relative;
+    color: #666666;
+    background: #CCCCCC;
     width: 540px;
     height: 60px;
-    border: 1px solid black;
-    padding: 10px;
+    border: 1px solid #666666;
+    padding: 15px;
+    font-size: 23px;
+}
+.input{
+    display: flex;
+    flex-direction:row;       
+    justify-content: center;
+    margin: 0;
     margin-top: 59px;
-    margin-left: 378px;
-    
+    margin-bottom: 239px;
 }
