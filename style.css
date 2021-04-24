@@ -5,8 +5,7 @@
     body{
         margin: 0;
     }
-
-    .verh{
+.verh{
         margin: 0;
         width: 1440px;
         height: 779px;
@@ -52,6 +51,10 @@
             color: #F7F7F7;
             text-transform: uppercase;
         }
+        .texst-hight-strok:hover{
+            color: #CD6326;
+            cursor: pointer;
+        }
         .texst2-hight-strok{
             position: relative;
             font-family: Open Sans;
@@ -60,6 +63,10 @@
             font-size: 23px;
             line-height: 60px;
             color: #F7F7F7;
+            cursor: pointer;
+        }
+        .texst2-hight-strok:hover{
+            color: #CD6326; 
         }
         .texst3-hight-strok{
             position: relative;
@@ -70,14 +77,22 @@
             font-size: 23px;
             line-height: 60px;
             color: #F7F7F7;
+            cursor: pointer;
+        }
+        .texst3-hight-strok:hover{
+            color: #CD6326;
         }
         .images2-hight-strok{
             height: 23.31px;
             width: 23.31px;
             position: relative;
             margin-left: 64px;
+            cursor: pointer;
         }
-        
+        .images2-hight-strok:hover{
+            border: 3px solid #CD6326;
+            border-radius: 5px;
+        }
         .new {
             position: relative;
             margin-left: 65.69px;
@@ -99,14 +114,12 @@
             color:#CD6326;
             border: 2px solid #F7F7F7;
         }
-
-    .centrll-strok{
-        display: flex;
-        flex-direction: row;
-        margin: 0;
-        margin: 120.77px 0px 208px 0px;
-        margin-top: 120.77px;
-        margin-bottom: 208px;
+        .centrll-strok{
+            width: 100%;
+            height: 400.77px;
+            display: flex;
+            flex-direction: column;
+            margin: 0;
         }
         .centrll-text{
             font-family: Open Sans;
@@ -116,6 +129,9 @@
             line-height: 72px;
             letter-spacing: 2px;
             color: #CD6326;
+            display: flex;
+            margin-top: 120.77px;
+            margin-left: 120px;
         }
         .centrll-text2{
             font-family: Open Sans;
@@ -124,6 +140,34 @@
             font-size: 18px;
             line-height: 27px;
             color: #F7F7F7;
+            width: 274px;
+            height: 108px;
+            display: flex;
+            margin-left: 120px;
+            margin-top: 51px;
+        }
+        .centrll button{
+            background: #CD6326;
+            height: 60px;
+            width: 160px;
+            border:#CD6326;
+            border-radius: 5px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 23px;
+            line-height: 27px;
+            text-align: center;
+            color: #F7F7F7;
+            margin: 0;
+            margin-top: 65px;
+            margin-left: 120px;
+        }
+        .centrll button:hover{
+            cursor: pointer;
+            background: #F7F7F7;
+            color: #CD6326;
+            border: 3px solid #CD6326;
         }               
 .centr{
     padding:0;
