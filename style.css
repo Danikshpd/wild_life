@@ -306,7 +306,7 @@
         align-items: center;
         justify-content: center;
         margin: 0;
-        /* margin-top: 100px; */
+        padding-top: 150px;
     }
     .cent-strok-in{
         height: 100%;
@@ -345,7 +345,7 @@
         .cent-right-text{
             display: flex;
         }
-            .cent-right-text-1{
+            .cent-right-text-1 button{
                 width: 80px;
                 height: 60px;
                 font-family: Open Sans;
@@ -354,9 +354,15 @@
                 font-size: 23px;
                 line-height: 60px;
                 color: #F7F7F7;
+                background: none;
+                border: none;
+                cursor: pointer;
             }
-            .cent-right-text-2{
-                width: 100px;
+            .cent-right-text-1 button:hover{
+                color: #CD6326;
+            }
+            .cent-right-text-2 button{
+                width: 110px;
                 height: 60px;
                 font-family: Open Sans;
                 font-style: normal;
@@ -365,9 +371,15 @@
                 line-height: 60px;
                 color: #F7F7F7;
                 margin-left: 86px;
+                background: none;
+                border: none;
+                cursor: pointer;
             }
-            .cent-right-text-3{
-                width: 129px;
+            .cent-right-text-2 button:hover{
+                color: #CD6326;
+            }
+            .cent-right-text-3 button{
+                width: 140px;
                 height: 60px;
                 font-family: Open Sans;
                 font-style: normal;
@@ -376,6 +388,12 @@
                 line-height: 60px;
                 color: #F7F7F7;
                 margin-left: 85px;
+                background: none;
+                border: none;
+                cursor: pointer;
+            }
+            .cent-right-text-3 button:hover{
+                color: #CD6326;
             }
         .cent-right-img{
             width: 240px;
